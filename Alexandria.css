@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500&display=swap');
+* {
+    font-family: 'Yaldevi', sans-serif;
+}
+
+body {
+    background-color: #06143a;
+    color: #06143a;
+}
+
+.title {
+    color: #636269;
+    max-height: 50px;
+    font-size: 20px;
+    font-weight: 30;
+    line-height: 20px;
+}
+
+.biodata {
+    background-color: #8c91a0;
+    font-size: 80px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #06143a;
+    margin: auto;
+    border: 3px solid #636269;
+}
+
+.size {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --a: #06143a;
+    --b: #a1a1a1;
+    --c: #8c91a0;
+}
+
+.one {
+    background-color: var(--c);
+    color: var(--a); 
+    border-radius: 5px;
+    text-align: center;
+}
+
+.two {
+    background-color: var(--b);
+    color: var(--a);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.three {
+    background-color: var(--c);
+    color: var(--a);
+    border-radius: 5px;
+    caption-side: top;
+}
+
+.four {
+    background-color: var(--c);
+    color: var(--a);
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.five {
+    background-color: var(--b);
+    color: var(--a);
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.six {
+    background-color: var(--c);
+    color: var(--a);
+    border-radius: 5px;
+   
+}
